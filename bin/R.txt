@@ -1,7 +1,9 @@
-int attr drawable 0x7f010000
-int drawable ic_launcher 0x7f020000
-int string app_name 0x7f030000
-int style AppBaseTheme 0x7f040000
-int style AppTheme 0x7f040001
-int[] styleable GifView { 0x7f010000 }
-int styleable GifView_drawable 0
+int attr gif 0x7f010000
+int attr gifViewStyle 0x7f010002
+int attr paused 0x7f010001
+int style Widget_GifView 0x7f020000
+int[] styleable CustomTheme { 0x7f010002 }
+int styleable CustomTheme_gifViewStyle 0
+int[] styleable GifView { 0x7f010000, 0x7f010001 }
+int styleable GifView_gif 0
+int styleable GifView_paused 1
