@@ -11,7 +11,7 @@ import android.view.View;
 
 public class GifView extends View {
 
-	private static final int DEFAULT_MOVIEW_DURATION = 1000;
+	private static final int DEFAULT_MOVIE_DURATION = 1000;
 
 	private int mMovieResourceId;
 
@@ -31,9 +31,9 @@ public class GifView extends View {
 
 	private int mMeasuredMovieHeight;
 
-	private volatile boolean mPaused = false;
-
 	private boolean mVisible = true;
+
+	private volatile boolean mPaused = false;
 
 	public GifView(Context context) {
 		this(context, null);
@@ -155,7 +155,7 @@ public class GifView extends View {
 		}
 		int dur = mMovie.duration();
 		if (dur == 0) {
-			dur = DEFAULT_MOVIEW_DURATION;
+			dur = DEFAULT_MOVIE_DURATION;
 		}
 		mCurrentAnimationTime = (int) ((now - mMovieStart) % dur);
 	}
