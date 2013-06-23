@@ -1,7 +1,11 @@
 int attr gif 0x7f010000
 int attr gifViewStyle 0x7f010002
 int attr paused 0x7f010001
-int style Widget_GifView 0x7f020000
+int drawable pause 0x7f020000
+int layout pause 0x7f030000
+int string pause 0x7f040001
+int string play 0x7f040000
+int style Widget_GifView 0x7f050000
 int[] styleable CustomTheme { 0x7f010002 }
 int styleable CustomTheme_gifViewStyle 0
 int[] styleable GifView { 0x7f010000, 0x7f010001 }
